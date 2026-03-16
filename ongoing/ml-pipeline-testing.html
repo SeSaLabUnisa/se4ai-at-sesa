@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automated Testing for ML Pipelines — SE4AI @ SeSa</title>
+  <meta name="description" content="Novel techniques for automatically generating and executing test cases for machine learning pipelines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <script src="../scripts/js/components.js" defer></script>
+  <script src="../scripts/js/participate.js" defer></script>
+</head>
+<body>
+
+  <site-header active="ongoing.html" base=".."></site-header>
+
+  <section class="page-header">
+    <div class="page-header__bg" aria-hidden="true"></div>
+    <div class="container page-header__inner">
+      <p class="page-header__label"><a href="../ongoing.html" style="color:inherit">← Ongoing Works</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container detail-container">
+
+      <div class="detail-header">
+        <span class="detail-header__icon">🧪</span>
+        <h1 class="detail-header__title">Automated Testing for ML Pipelines</h1>
+      </div>
+
+      <div class="detail-body">
+
+        <p class="detail-body__lead">
+          Novel techniques for automatically generating and executing test cases for machine learning pipelines.
+        </p>
+
+        <h2 class="detail-body__section-title">Motivation &amp; Details</h2>
+        <p class="detail-body__text">
+          Machine learning pipelines are notoriously hard to test: data dependencies, non-determinism,
+          and the lack of traditional oracles make conventional testing tools inadequate. We are building
+          automated approaches that target both data quality and model behaviour, drawing from metamorphic
+          testing, mutation analysis, and coverage criteria adapted to the ML context. We are looking for
+          collaborators with expertise in test automation or ML systems.
+        </p>
+
+        <div class="participate">
+            <h2 class="detail-body__section-title">Why We Need You</h2>
+          <p class="participate__intro">
+            Testing ML pipelines requires both software engineering expertise and machine learning intuition — a rare combination.
+            We are looking for collaborators who can help bridge these worlds: whether you come from test automation,
+            data engineering, or applied ML, your perspective matters. PhD students, postdocs, and industry practitioners are all welcome.
+          </p>
+
+          <form class="participate__form" data-mailto="contact@unisa.it">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name" />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="affiliation">Affiliation <span style="font-weight:400;opacity:.7">(optional)</span></label>
+              <input type="text" id="affiliation" name="affiliation" placeholder="University or company" />
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Tell us about your background and interest…"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send →</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <site-footer base=".."></site-footer>
+
+</body>
+</html>

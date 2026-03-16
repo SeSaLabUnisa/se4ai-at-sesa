@@ -1,0 +1,9 @@
+[
+  {
+    "name": "CodeSmile",
+    "description": "A novel ML smell detector that we developed to enable the identifications of ML-specific code smells.",
+    "repo": "https://github.com/giammariagiordano/smell_ai",
+    "paper": "https://link.springer.com/article/10.1007/s10664-025-10676-4",
+    "paper_label": "Empirical Software Engineering"
+  }
+]

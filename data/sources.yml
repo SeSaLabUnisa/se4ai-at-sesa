@@ -1,0 +1,50 @@
+# Fields:
+#   name            – display name 
+#   url             – raw URL of the publications file
+#   format          – a short label you choose; used as the `source_format`
+#                     argument passed to your normalize_entry() function
+#
+# People page fields (exported to data/members.json for people.html):
+#   role            – e.g. "Full Professor", "PhD Student"
+#   bio             – short research bio
+#   photo           – filename under assets/img/ (leave blank for placeholder)
+#   website         – personal or academic homepage (optional)
+#   pub_name        – name as it appears in publication author lists (e.g. "A. Rossi")
+#                     if absent, falls back to `name`
+
+sources:
+  - name: "Fabio Palomba"
+    role: "Associate Professor"
+    bio: ""
+    photo: fp.jpg
+    pub_name: "F. Palomba"
+    website: "https://fpalomba.github.io"
+    url: "https://raw.githubusercontent.com/alice-rossi/personal-site/main/publications.json"
+    format: "default"
+
+  - name: "Gianmario Voria"
+    role: "Ph.D. Student"
+    bio: ""
+    photo: gv.jpg
+    website: https://gianwario.vercel.app/
+    pub_name: "Voria, G."
+    url: "https://raw.githubusercontent.com/bob-verdi/academic/main/data/pubs.json"
+    format: "flat"
+
+  - name: "Antonio Della Porta"
+    role: "Ph.D. Student"
+    bio: ""
+    photo: adp.png
+    website: https://atdepo.github.io/
+    pub_name: "A. Della Porta"
+    url: "https://raw.githubusercontent.com/bob-verdi/academic/main/data/pubs.json"
+    format: "flat"
+
+  - name: "Alfonso Cannavale"
+    role: "Ph.D. Student"
+    bio: ""
+    photo: alfcan.jpg
+    website: https://atdepo.github.io/
+    pub_name: "Della Porta, A."
+    url: "https://raw.githubusercontent.com/bob-verdi/academic/main/data/pubs.json"
+    format: "flat"

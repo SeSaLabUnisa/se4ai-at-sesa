@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — SE4AI @ SeSa</title>
+  <meta name="description" content="European research projects of the SE4AI group at the University of Salerno." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="scripts/js/components.js" defer></script>
+</head>
+<body>
+
+  <site-header active="projects.html"></site-header>
+
+  <!-- ─── PAGE HEADER ──────────────────────────────────────────────────────── -->
+  <section class="page-header">
+    <div class="page-header__bg" aria-hidden="true"></div>
+    <div class="container page-header__inner">
+      <p class="page-header__label">SE4AI @ SeSa</p>
+      <h1 class="page-header__title">Projects</h1>
+      <p class="page-header__sub">Research projects we are part of.</p>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS (rendered by JS) ───────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div id="projects-root"></div>
+    </div>
+  </section>
+
+  <site-footer></site-footer>
+
+  <script src="scripts/js/projects.js"></script>
+
+</body>
+</html>

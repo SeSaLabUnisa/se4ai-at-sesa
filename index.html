@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SE4AI @ SeSa</title>
+  <meta name="description" content="Software Engineering for AI Systems — University of Salerno" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="scripts/js/components.js" defer></script>
+</head>
+<body>
+
+  <site-header active="index.html"></site-header>
+
+  <!-- ─── HERO + ABOUT ─────────────────────────────────────────────────────── -->
+  <section id="hero" class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+
+      <div class="hero__left">
+        <h1 class="hero__title">
+          <em class="em-se">Software Engineering</em><br />
+          for <em class="em-ai">AI Systems</em><br />
+          <span class="em-loc">@ SeSa</span>
+        </h1>
+      </div>
+
+      <div class="hero__right">
+        <p class="hero__about">
+          The SE4AI research group at the University of Salerno investigates the
+          challenges of engineering software systems that incorporate machine
+          learning components. Our work spans testing, quality assurance,
+          technical debt, and DevOps for AI-based applications.
+        </p>
+        <a href="ongoing.html" class="btn btn--primary">Join our research →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── RESEARCH AREAS ───────────────────────────────────────────────────── -->
+  <section id="research" class="section bg-subtle">
+    <div class="container">
+      <h2 class="section__title">Research Areas</h2>
+      <div class="cards">
+
+        <div class="card">
+          <div class="card__header">
+            <span class="card__icon">📊</span>
+            <h3 class="card__title">Empirical Software Engineering</h3>
+          </div>
+          <p class="card__text">
+            Applying rigorous empirical methods — controlled experiments, case studies,
+            and mining software repositories — to produce evidence-based insights on
+            software development practices and tools.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__header">
+            <span class="card__icon">🔄</span>
+            <h3 class="card__title">Software Maintenance &amp; Evolution</h3>
+          </div>
+          <p class="card__text">
+            Studying how software systems change over time, with a focus on technical
+            debt, code smells, refactoring, and the long-term sustainability of
+            large-scale codebases.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__header">
+            <span class="card__icon">🤖</span>
+            <h3 class="card__title">Software Engineering for AI/ML Systems</h3>
+          </div>
+          <p class="card__text">
+            Addressing the unique engineering challenges of AI-based systems, including
+            quality assurance, testing, architectural design, and MLOps practices for
+            machine learning pipelines.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__header">
+            <span class="card__icon">🤝</span>
+            <h3 class="card__title">Social &amp; Human Factors in SE</h3>
+          </div>
+          <p class="card__text">
+            Investigating how developers, teams, and organizations interact with
+            software processes and tools, covering topics such as productivity,
+            collaboration, diversity, and communication in hybrid teams.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__header">
+            <span class="card__icon">🔐</span>
+            <h3 class="card__title">Software Security &amp; Testing</h3>
+          </div>
+          <p class="card__text">
+            Developing techniques to detect vulnerabilities, assess software reliability,
+            and improve test effectiveness through methods such as mutation testing,
+            fuzzing, and static analysis.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <site-footer></site-footer>
+
+</body>
+</html>

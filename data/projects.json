@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Continuous Quality Improvement of AI-based Systems\n",
+    "acronym": "QUAL-AI",
+    "programme": "European Union – NextGenerationEU",
+    "call": "PRIN-2022",
+    "start": 2023,
+    "end": 2025,
+    "url": "https://collab.di.uniba.it/qualaiproject/",
+    "description": "QualAI is a two-year project that aims to define a set of recommenders to continuously monitor, assess, and improve the quality of AI-based systems, with a particular focus on ML-based systems. Quality assurance will be guaranteed from different perspectives and during both the development and operations phases. We will define recommenders for the quality assurance of both data and ML models to enable practitioners to mitigate technical debt. Emphasis will be given to communication issues that could arise in hybrid teams including data scientists and software developers."
+  },
+  {
+    "name": "Context-aware Fairness engineering in complex software systems\n",
+    "acronym": "FRINGE",
+    "programme": "European Union – NextGenerationEU",
+    "call": "PRIN 2022 PNRR",
+    "start": 2023,
+    "end": 2025,
+    "url": "https://fringe-prin-project.github.io/",
+    "description": "The overarching goal of the project is to provide software engineers, data scientists, and ML experts with a comprehensive set of methodologies, approaches, and software engineering (SE) solutions to improve the development, monitoring, and design of fairness-related properties of ML-intensive systems. FRINGE will help to sustain the digital transformation by empowering advanced artificial intelligence applications through instruments that can lead to the trustworthy and ethical exploitation of large amounts of data. "
+  }
+]
