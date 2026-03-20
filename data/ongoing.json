@@ -1,20 +1,8 @@
 [
   {
-    "icon": "🧪",
-    "title": "Automated Testing for ML Pipelines",
-    "description": "Novel techniques for automatically generating and executing test cases for machine learning pipelines.",
-    "url": "ongoing/ml-pipeline-testing.html"
-  },
-  {
-    "icon": "📉",
-    "title": "Technical Debt in AI-based Systems",
-    "description": "An empirical study on the nature and evolution of technical debt in open-source AI projects.",
-    "url": "ongoing/technical-debt-ai.html"
-  },
-  {
-    "icon": "⚖️",
-    "title": "Fairness-aware Software Engineering",
-    "description": "A suite of tools to help practitioners detect and mitigate fairness issues in ML-intensive systems.",
-    "url": "ongoing/fairness-engineering.html"
+    "icon": "\uD83D\uDD2C",
+    "title": "Requirement Engineering For Generative AI Agents",
+    "description": "Investigating how the requirement engineering phase changes when GenAI agents are involved into the process.",
+    "url": "ongoing/re4agents.html"
   }
 ]
